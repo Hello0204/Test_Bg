@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "be22dc2f-8009-4247-bda4-41a825747bcc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 227,
+  "height": 343,
+  "platformSettings": {},
+  "subMetas": {
+    "policecar": {
+      "ver": "1.0.4",
+      "uuid": "8a6193f8-1774-44df-829a-5dde0efe547d",
+      "rawTextureUuid": "be22dc2f-8009-4247-bda4-41a825747bcc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 227,
+      "height": 343,
+      "rawWidth": 227,
+      "rawHeight": 343,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
