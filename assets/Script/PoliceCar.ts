@@ -49,6 +49,5 @@ export class PoliceCar extends cc.Component {
 
 
     update(dt: number) {
-        // cc.log(this.node.x);
     }
 }

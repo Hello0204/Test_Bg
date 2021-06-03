@@ -38,7 +38,6 @@ export class BGMove extends cc.Component {
                     cc.tween()
                         .by(0.05, { y: -50 })
                         .call(() => {
-                            cc.log('bg' + i + ' ' + this.spBg[i].node.y)
                             if (this.spBg[i].node.y <= -700) {
                                 this.spBg[i].node.y = 700
                             }
@@ -53,8 +52,6 @@ export class BGMove extends cc.Component {
                 cc.tween(this.spBg[2].node)
                     .by(0.05, { y: -50 })
                     .call(() => {
-                        // // Check tọa độ
-                        // cc.log('bg2 ' + this.spBg[2].node.y)
 
                         if (this.spBg[2].node.y <= 80) {
                             cc.log('bg2_1 ' + this.spBg[2].node.y)
@@ -64,8 +61,6 @@ export class BGMove extends cc.Component {
                                         .by(0.05, { y: -20 })
                                 )
                                 .start()
-                                // cc.log('bg2_2 ' + this.spBg[2].node.y)
-                                // cc.log('car' + this.Car.y)
                             cc.tween(this.FoCar)
                                 .repeatForever(
                                     cc.tween()
